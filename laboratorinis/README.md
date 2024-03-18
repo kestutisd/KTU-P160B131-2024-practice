@@ -68,6 +68,33 @@ Shiny R aplikacijos nuotrauka:
 
 Laboratoriniame darbe kiekvienam studentui yra atsitiktiniu budu priskirtas ekonominės veiklos kodas bei skirtingas failo tipas, pagal kurį reikės paruošti duomenis.
 
-| Variantas | ecoActCode |
-|------------- | ------------- |
-|20   | 11111111111 |
+|Variantas | ecoActCode|Formatas          |
+|:---------|----------:|:-----------------|
+|1         |     949900|monthly-2023.json |
+|2         |     494100|monthly-2023.json |
+|3         |     682000|monthly-2023.json |
+|4         |     412000|monthly-2023.json |
+|5         |     452000|monthly-2023.json |
+|6         |     702200|monthly-2023.json |
+|7         |     561000|monthly-2023.csv  |
+|8         |     692000|monthly-2023.json |
+|9         |     451100|monthly-2023.csv  |
+|10        |     479100|monthly-2023.json |
+|11        |     681000|monthly-2023.csv  |
+|12        |     862300|monthly-2023.json |
+|13        |     522920|monthly-2023.json |
+|14        |     471100|monthly-2023.csv  |
+|15        |     467300|monthly-2023.csv  |
+|16        |     620000|monthly-2023.json |
+|17        |     461000|monthly-2023.json |
+|18        |     460000|monthly-2023.csv  |
+|19        |     620100|monthly-2023.csv  |
+|20        |     680000|monthly-2023.json |
+|21        |     560000|monthly-2023.json |
+|22        |     471900|monthly-2023.json |
+|23        |     433900|monthly-2023.csv  |
+
+Duomenų failai: 
+
+* https://atvira.sodra.lt/imones/downloads/2023/monthly-2023.json.zip
+* https://atvira.sodra.lt/imones/downloads/2023/monthly-2023.csv.zip
