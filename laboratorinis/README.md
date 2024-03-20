@@ -18,7 +18,7 @@
 *	R skriptas duomenų vizualizacijai (R/2-visualization.R)
 *	grafikų patalpinimas img kataloge
 *	R Shiny aplikacija "app" kataloge (gali buti 1 (app.R) arba 2 (ui.R ir server.R) failai)
-*	Analizės išvados (jeigu yra) pateikiamos laboratorinis/readme.md faile
+*	Analizės išvados (jeigu yra) pateikiamos readme.md faile
 
 Papildomą R programos kodą (jeigu yra) galite kelti į R katalogą. Repositorijoje venkite šiukšlių bei **didelės apimties** failų.
 
