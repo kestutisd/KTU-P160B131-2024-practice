@@ -2,13 +2,13 @@
 
 ## Laboratorinio darbo vertinimas
 
-*	Duomenu˛ importavimas (2 taškai)
-*	Duomenu˛ vizualizacija (plot, geom_point, geom_bar) (3 taškai)
+*	Duomenų importavimas ir paruošimas (2 taškai)
+*	Duomenų vizualizacija (plot, geom_point, geom_bar) (3 taškai)
 *	R Shiny aplikacija (2 taškai)
 *	R Shiny aplikacijos veikimas dėstytojo kompiuteryje (1 taškas)
-*	Repositorija atitinka nurodytus reikalavimus (2 taškas)
+*	Repositorija atitinka nurodytus reikalavimus (2 taškai)
 
-+1 papildomas taškas prie laboratorinio darbo įvertinimo pridedamas už išvadų˛ pateikimą ir/arba savo dizainu/funkcionalumu išsiskiriančią R Shiny aplikaciją.
++1 papildomas taškas prie laboratorinio darbo įvertinimo pridedamas už išvadų pateikimą ir/arba savo dizainu/funkcionalumu išsiskiriančią R Shiny aplikaciją.
 
 
 ## Reikalavimai atsiskaitymui
@@ -24,6 +24,15 @@ Papildomą R programos kodą (jeigu yra) galite kelti į R katalogą. Repositori
 
 
 ## Laboratorinio darbo užduotys
+
+Įsitikinkite, jog:
+* turite github.com paskyrą
+* esate instaliavę git klientą https://git-scm.com/downloads
+* turite RStudio ir R su visais reikalingais paketais (pvz. tidyverse, shiny)
+
+Prisijunkite prie savo github.com paskyros. Atlikite "fork" veiksmą iš projekto šablono repozitorijos: https://github.com/kestutisd/KTU-P160B131-2024-lab
+
+Atsisiųskite naujai sukurtą repozitoriją į savo kompiuterį (git clone) ir pradėkite dirbti projekto direktorijoje.
 
 ### 1. Užduotis
 
@@ -56,13 +65,19 @@ Iš 2.2 užduotyje išrinktų 5 įmonių išrinkite maksimalų apdraustų darbuo
 
 ![apdraustieji](img/pavyzdys3.png)
 
-### 4. Užduotis
+### 3. Užduotis
 
 Sukurkite web aplikaciją pagal nurodytą veiklos sritį. Naudokite išfiltruotus duomenis (duomenų paruošimo žingsnyje). Aplikacijos tikslas - dinamiškai vizualizuoti atlyginimų dinamiką (plotOutput), pasirinkus įmonę (pvz. pasirenkant iš įmonių sąrašo arba įvedus įmonės kodą)
 
 Shiny R aplikacijos nuotrauka:
 
 ![shiny app](img/shiny_example.png)
+
+### Darbo pateikimas
+
+Išsaugokite sugeneruotus paveikslėlius ir shiny aplikacijos nuotrauką (screenshot) į "img" katalogą. Įsitikinkite, jog pagrindiniame README.md referuojate į savuosius paveikslėlius. 
+
+Įkelkite lokaliai atliktus kodo pakeitimus į savo github repozitoriją (git add; git commit -m; git push).
 
 # Laboratorinio darbo variantai
 
