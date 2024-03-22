@@ -1,6 +1,6 @@
 1. Instaliuojame git klientą ( https://git-scm.com/download/win )
 2. Prisijungiame į github.com su savo vartotoju
-3. Paspaudžiame "Fork" https://github.com/kestutisd/KTU-duomenu-vizualizacija repositorijoje
+3. Paspaudžiame "Fork" https://github.com/kestutisd/KTU-P160B131-2024-lab repositorijoje
 
 ![](img/1-fork.png)
 
@@ -18,13 +18,13 @@
 7. Įveskite komandą:
 
 ```
-git clone https://github.com/<JŪSŲ REPO>/KTU-duomenu-vizualizacija.git
+git clone https://github.com/<JŪSŲ VARTOTOJAS>/KTU-P160B131-2024-lab
 ```
 
 8. Užeikite į repositorijos direktoriją (change directory):
 
 ```
-cd KTU-duomenu-vizualizacija
+cd KTU-P160B131-2024-lab
 ```
 
 9. Pakeitus failus lokaliai ir norint juos patalpinti į GitHub:
