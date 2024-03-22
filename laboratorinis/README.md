@@ -83,7 +83,7 @@ Išsaugokite sugeneruotus paveikslėlius ir shiny aplikacijos nuotrauką (screen
 
 Laboratoriniame darbe kiekvienam studentui yra atsitiktiniu budu priskirtas ekonominės veiklos kodas bei skirtingas failo tipas, pagal kurį reikės paruošti duomenis.
 
-|Variantas | ecoActCode|Formatas          |
+|Variantas | ecoActCode|Failo pavadinimas          |
 |:---------|----------:|:-----------------|
 |1         |     949900|monthly-2023.json |
 |2         |     494100|monthly-2023.json |
