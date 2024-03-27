@@ -1,6 +1,7 @@
 library(tidyverse)
 library(plotly)
 library(gganimate)
+library(htmlwidgets)
 
 data <- readRDS("../data/kaunas.rds")
 
@@ -43,4 +44,25 @@ p_animated <- animate(p_animate, nframes = 50, duration = 5, width = 1600, heigh
 p_animated
 anim_save("../img/animated_plot.gif", animation = p_animated)
 
+# 3 uzduotis
 
+top_eco <- data %>%
+  group_by(ecoActCode) %>%
+  summarise(n = n()) %>%
+  arrange(desc(n)) %>%
+  head(20)
+top_eco
+
+agg_data <- data %>%
+  filter(ecoActCode %in% top_eco$ecoActCode) %>%
+  group_by(ecoActName, name) %>%
+  summarise(avgWage = mean(avgWage, na.rm = TRUE), numInsured = mean(numInsured))
+
+pp <- ggplot(agg_data, aes(x = avgWage, y = numInsured, color = ecoActName, label = name)) +
+  geom_point(alpha = 0.3, na.rm = TRUE) +
+  geom_smooth(method = "glm", se = TRUE, na.rm = TRUE, color = "black", fill = "blue", alpha = 0.1) +
+  theme_minimal() +
+  guides(color = "none")
+ggplotly(pp)
+plotly_obj <- ggplotly(pp)
+saveWidget(plotly_obj, file = "../img/plot.html", selfcontained = TRUE)
