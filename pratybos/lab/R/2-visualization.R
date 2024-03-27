@@ -39,7 +39,7 @@ ggplotly(p)
 p_animate <- p +
   transition_reveal(month)
 
-animate(p_animate, nframes = 50, duration = 5, width = 800, height = 600)
+p_animated <- animate(p_animate, nframes = 50, duration = 5, width = 1600, height = 1000)
 p_animated
 anim_save("../img/animated_plot.gif", animation = p_animated)
 
